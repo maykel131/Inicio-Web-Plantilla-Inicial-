@@ -17,10 +17,10 @@
        }
 
  */
-	
-  <section class="jumbotron">
+	  ?>
+    <section class="jumbotron">
     <div class="container">
-      <h1>Titulo</h1>
+      <h1>Desafio FabricaInfo</h1>
       <p>Maykel Trejo</p>
     </div>
   </section>
@@ -34,7 +34,6 @@
       </div>  
       <div class="col-md-4" ></div> 
   </div>
-	  ?>
 
 </body>
 </html>
