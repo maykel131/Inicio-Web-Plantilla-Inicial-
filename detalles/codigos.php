@@ -5,6 +5,8 @@
 </script>
 
 
+consulta inner
+ $sql="SELECT * FROM categoria INNER JOIN nota ON categoria.id = nota.id_cate";
 
 
 
