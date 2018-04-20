@@ -9,6 +9,10 @@ consulta inner
  $sql="SELECT * FROM categoria INNER JOIN nota ON categoria.id = nota.id_cate";
 
 
+update
+$sql="UPDATE persona set nombre='$n', apellido='$a',  telefono='$t', sexo='$s',correo='$c'  where id =$ide ";
+
+
 
 
 
