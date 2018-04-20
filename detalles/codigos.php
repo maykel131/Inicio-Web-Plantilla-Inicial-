@@ -1,19 +1,29 @@
-
+ //JQUERY
 <script type="text/javascript">
 	$(document).ready(function(){
 	});
 </script>
 
+/////////////////////////////////funcion normal JS
+
+<div class="btn btn-warning" data-toggle="modal" data-target="#modalupdate" onclick="agregarForm('<?php echo  $cadena ?>')"> </div>
+
+<script>function agregarForm(cadena){
+    var d=cadena.split(';');
+    $('#nomeU').val(d[0]);}
+</script>
+
+///////////////////////////final de la funcion JS
 
 consulta inner
  $sql="SELECT * FROM categoria INNER JOIN nota ON categoria.id = nota.id_cate";
 
-
+////////////////////////////////////////////////////////////
 update
 $sql="UPDATE persona set nombre='$n', apellido='$a',  telefono='$t', sexo='$s',correo='$c'  where id =$ide ";
 
 
-
+/////////////////////////////////////////////////////////////////
 
 
 
@@ -39,7 +49,7 @@ $sql="UPDATE persona set nombre='$n', apellido='$a',  telefono='$t', sexo='$s',c
 		});
 	});
 </script>
- este es el controller del ajax
+ este es el proseco que ejecuta el ajax
 <?php 
 	$conexion=mysqli_connect('localhost','root','','pruebas');
 	$nombre=$_POST['nombre'];
