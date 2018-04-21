@@ -20,7 +20,7 @@
 	  ?>
     <section class="jumbotron">
     <div class="container">
-      <h1>Desafio FabricaInfo</h1>
+      <h1>Titulo</h1>
       <p>Maykel Trejo</p>
     </div>
   </section>
