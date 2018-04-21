@@ -22,7 +22,8 @@ consulta inner
 update
 $sql="UPDATE persona set nombre='$n', apellido='$a',  telefono='$t', sexo='$s',correo='$c'  where id =$ide ";
 
-
+Delete
+$sql="DELETE FROM persona where id= '$id'";
 /////////////////////////////////////////////////////////////////
 
 
