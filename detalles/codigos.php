@@ -40,6 +40,7 @@ $sql="DELETE FROM persona where id= '$id'";
 				data:datos,
 				success:function(r){
 					if(r==1){
+						$('#tabla').load('vistas/tabla.php');
 						alert("agregado con exito");
 					}else{
 						alert("Fallo el server");
