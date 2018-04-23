@@ -18,7 +18,7 @@
 
  */
 	  ?>
-    <section class="jumbotron">
+  <section class="jumbotron">
     <div class="container">
       <h1>Titulo</h1>
       <p>Maykel Trejo</p>
@@ -33,7 +33,7 @@
         </form>
       </div>  
       <div class="col-md-4" ></div> 
-  </div>
-
+    </div>
+   </div> <!-- fin del container --> 	  
 </body>
 </html>
